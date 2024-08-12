@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Black background */
+    margin: 0;
+    font-family: 'Scheherazade New', serif; /* Apply the new font */
+}
+
+.tasbeeh-container {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.display-counter {
+    font-size: 48px;
+    color: #4CAF50;
+    margin-bottom: 30px;
+}
+
+button {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+button:focus {
+    outline: none;
+}
+
+.total-sum {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.history {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    max-height: 150px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dua-display {
+    margin-top: 20px;
+    color: #ffffff; /* White color for the dua text */
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.dua-label {
+    display: block;
+    color: #ffffff; /* White color for the label */
+    font-size: 20px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Space between the label and the dua text */
+}
+
+#dua-text {
+    font-weight: bold; /* Optional: make the dua text bold */
+}
+
+.footer {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
